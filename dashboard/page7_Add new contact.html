@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Add New contact</header>
+        <section class="content">
+            <form action="page3_Add new students.html" >
+                <input type="text"name="text" placeholder="your name" pattern="[A-Z][a-z]+ [A-Z][a-z]+">
+                <input type="email"name="email" placeholder="your email">
+                <input type="tel"name="phone" placeholder="your phone"pattern="(010|011|012|015)[0-9]{8}">
+                <input name="username"list="courses" placeholder="html" >
+                <datalist id="courses">
+                    <option>html</option>
+                    <option>css</option>
+                    <option>js</option>
+                </datalist>
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+    <aside >
+        <ul>
+            <p><a href="page1_home.html">home</a></p>
+            <p><a href="">news</a></p>
+            <p><a href="">events</a></p>
+            <p ><a href="page2_students.html">students</a></p>
+            <p ><a href="page4_doctors.html">doctors</a></p>
+            <p><a href="">about</a></p>
+            <p class="active"><a href="page5_contact.html">contact</a></p>
+            
+        </ul>
+</body>
+</html>

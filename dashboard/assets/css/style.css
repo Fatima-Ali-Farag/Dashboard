@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    overflow: auto;
+}
+.container{
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    
+}
+.container .content{
+    margin-top: 20px;
+    
+}
+.container header{
+    color: #70E4EF;
+    font-size: 30px;
+}
+.container .content form{
+
+background-color: #ebf4f5;
+border: 1px solid #ebf4f5;
+border-radius: 20px;
+padding: 10px;
+}
+.container .content form input{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.container .content form input[type="submit"]{
+   
+    background-color: #93e2eb;
+    color: white;  
+
+
+}
+.container  article ,.container table thead{
+    padding: 15px;
+    background-color: #93e2eb;
+    color: white;
+    font-size: 20px;
+}
+
+.container table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1px;
+}
+.container table th,.container table td{
+border: 1px solid #daebed;
+padding: 5px;
+}
+
+.container  button{
+    display: block;
+    margin-top: 20px;
+    width: 30%;
+    padding: 20px;
+    background-color: #93e2eb;
+    border: none;
+
+}
+.container  button a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: #c9e7e9;
+    padding: 10px;
+    width: 69%;
+    position: absolute;
+    bottom: 0;
+}
+
+aside{
+    width: 24%;
+    height: 736px;
+    background-color: #f0efe8;
+   
+    float: left;
+
+}
+
+aside ul p{
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+ 
+ 
+
+}
+aside ul p a{
+    text-decoration: none;
+    color: #60868a;
+}
+
+aside ul p a:hover{
+    color: #d1a8bb;
+}
+
+.active{
+    background-color: #93e2eb;
+}
+
+
+
+
